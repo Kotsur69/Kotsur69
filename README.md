@@ -46,7 +46,7 @@ I enjoy building practical tools — from small automation scripts to full-stack
 
 ---
 
-> I like building systems designed for an AI-focused future, grounded in solid understanding rather than hype.
+> I like building systems designed for an AI-focused future, grounded in solid understanding. I believe AI is often misunderstood, but it has the potential to fundamentally change the way we live and interact with the world.
 
 
 <h3 align="left">Languages and Tools:</h3>
