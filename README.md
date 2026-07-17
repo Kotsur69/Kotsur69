@@ -7,7 +7,7 @@
 ## Language Model Enthusiast & Full-Stack Developer
 
 I'm a software developer interested in how **language models, algorithms, and data-driven systems** work in real-world applications.  
-I enjoy building practical tools — from small automation scripts to full-stack systems — and exploring how algorithmic learning can be applied to **finance, analytics, and decision-making**.
+I enjoy building practical tools - from small automation scripts to full-stack systems - and exploring how algorithmic learning can be applied to **finance, analytics, and decision-making**.
 
 ---
 
