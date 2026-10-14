@@ -1,53 +1,66 @@
-<h1 align="center">Hi 👋, I'm Mateusz Mazur</h1>
-<h3 align="center">Language Model Enthusiast & Full-Stack Developer</h3>
+<h1 align="center">Hi, I'm Mateusz Mazur 👋</h1>
+<h3 align="center">Full-stack developer building business tools and local-LLM systems</h3>
 
-<br/>
-<br/>
+I turn messy, real company processes (steel pricing, contract registers, H&S programmes,
+supplier email) into software that people use every day: Next.js + PostgreSQL on the web
+side, Python for data, ML and LLM pipelines.
 
-## Language Model Enthusiast & Full-Stack Developer
-
-I'm a software developer interested in how **language models, algorithms, and data-driven systems** work in real-world applications.  
-I enjoy building practical tools - from small automation scripts to full-stack systems - and exploring how algorithmic learning can be applied to **finance, analytics, and decision-making**.
-
----
-
-### 🔧 What I work on
-- 🤖 **Language model implementation** & experimentation  
-- 📊 **Algorithmic learning**, data analysis & finance-oriented use cases  
-- 🌐 **Full-stack development** (frontend + backend systems)  
-- 🗃️ **Automation tools** (file aggregation, data pipelines)  
-- 🕸️ **Web scrapers** & data collection systems  
-- 🌐 **Networking fundamentals** (TCP/IP, traffic analysis, Wireshark, tcpdump)
+- 🏭 Three of my apps run in production or internal testing at a large industrial company
+- 🧠 Currently learning **RAG pipelines in Python** (retrieval, chunking, evaluation)
+- 🤝 **Open to B2B collaboration**: internal tools, process automation, local/private LLM integrations
+- 📫 [LinkedIn](https://www.linkedin.com/in/mateusz-mazur-041670302) · [matitrampolin@gmail.com](mailto:matitrampolin@gmail.com)
 
 ---
 
-### 🚀 Recent projects
-- 📁 Small apps for **file aggregation and automation**
-- 🧠 **LM-based systems** for data processing and analysis
-- 👥 Full-stack **worker management application**
-- 📈 Algorithm-driven tools supporting **data & financial analysis**
-- 🕷️ Custom **scrapers** for structured and unstructured data
+## Featured projects
+
+### Business applications
+| Project | What it is | Stack |
+|---|---|---|
+| **[SteelQuote](https://github.com/Kotsur69/SteelQuote)** | Pricing and offer platform for steel sales teams: real-time pricing for 6 steel types, configurable approval flows and validation rules, role-based visibility, PDF/Excel export, analytics. **v2.0 live in production.** | Next.js 14 · TypeScript · PostgreSQL |
+| **[AMSafe](https://github.com/Kotsur69/AMSafe)** | Gamified H&S (BHP) PWA for a production warehouse: daily quizzes, missions, points and ranks, worker → leader → manager hierarchy, push notifications. **In production.** | Next.js · Prisma · PostgreSQL · Web Push · S3 |
+| **[CRU2026](https://github.com/Kotsur69/CRU2026-public-version)** | Rebuild of a legacy CakePHP contract registry: server-side read authorization, SharePoint storage through Microsoft Graph, migration of ~20k legacy records. | Next.js 14 · Prisma · PostgreSQL · MS Graph |
+| **[Logistics Network Map](https://github.com/Kotsur69/Logistics_Network_Map)** | Turns shipment exports into an interactive route map with tonnage-weighted routes, hubs and top customers, in one offline HTML file. | Python · pandas · OSRM |
+
+### AI & LLM systems
+| Project | What it is | Stack |
+|---|---|---|
+| **[AI_Mail_Arbitrium](https://github.com/Kotsur69/AI_Mail_Arbitrium)** | Classifies supplier email replies with a **local** LLM: JSON-Schema constrained decoding, verbatim evidence grounding and a deterministic human-review queue. Nothing leaves the machine. 217 tests. | Python · LM Studio · Qwen3 · Outlook COM |
+| **Synthara** *(private)* | Multi-persona AI content platform: FastAPI + Celery workers, ComfyUI image/video generation, n8n scheduling and a Next.js human-in-the-loop review dashboard. | FastAPI · Celery · Redis · PostgreSQL · ComfyUI · n8n · Docker |
+| **[LunaCore HUD](https://github.com/Kotsur69/Luna-Core-HUD)** | Electron dashboard for the Claude Code CLI: context and usage telemetry, session tabs, and parallel AI workers in git worktrees that finish as PRs. | Electron · JavaScript · Python |
+
+### Quant & trading research
+| Project | What it is | Stack |
+|---|---|---|
+| **[money_printer_turbo](https://github.com/Kotsur69/money_printer_turbo)** | Research harness for US-equity strategies with pre-registered kill gates, a deflated Sharpe ratio and fill-realism checks on real quotes. Three theses honestly killed, and **$1,759 of data purchases avoided** by gates. | NautilusTrader · CatBoost · Databento |
+| **[crypto-regime-trader](https://github.com/Kotsur69/crypto-regime-trader)** | Binance bot: pattern + market-regime engine, LLM news sentiment, Kelly sizing, scale-out exits, walk-forward backtests, pytest suite. Testnet-first. | Python · Flask · pandas |
+
+<sub>Older experiments: [news & analyzer tools](https://github.com/Kotsur69/news-and-analyzer-tools-archive) · [newsletter tools](https://github.com/Kotsur69/newsletter-tools-archive)</sub>
 
 ---
 
-### 🧠 Interests
-- Applied machine learning & language models  
-- Algorithms and statistical thinking  
-- Data engineering & analytics  
-- Finance-oriented systems  
-- Backend architecture & scalability  
+## Stack
+
+- **Frontend:** TypeScript · React · Next.js (App Router) · Tailwind CSS · shadcn/ui · PWA
+- **Backend:** Node.js · Prisma · PostgreSQL · NextAuth · FastAPI · Celery · Redis · REST
+- **Data / ML:** Python · pandas · NumPy · CatBoost · NautilusTrader · walk-forward / CPCV validation
+- **LLM:** local models (LM Studio, Ollama, Qwen) · structured output / JSON Schema · prompt pipelines · ComfyUI · *learning: RAG*
+- **Integrations & ops:** Microsoft Graph / SharePoint · Outlook COM · n8n · Docker · Vercel · Electron · Git
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,prisma,postgres,python,fastapi,redis,docker,electron,git,linux,vercel&perline=16" alt="Languages and tools" />
+</p>
 
 ---
 
-### 📌 Currently
-- Learning more about **applied ML and algorithmic decision systems**
-- Improving full-stack architectures
-- Exploring practical LM use cases beyond demos
+## Interests & currently
 
----
+- 🔎 **RAG pipelines in Python**: retrieval, chunking strategies, evaluating answer quality
+- 🧠 Applied ML and LLMs **beyond demos**: private, local models doing real business work
+- 📈 Algorithmic decision systems and finance, validated honestly (walk-forward, kill gates)
+- 🏗️ Backend architecture: authorization, data migrations, systems that are easy to run
+- 🌐 Networking fundamentals: TCP/IP, traffic analysis (Wireshark, tcpdump)
 
-> I like building systems designed for an AI-focused future, grounded in solid understanding. I believe AI is often misunderstood, but it has the potential to fundamentally change the way we live and interact with the world.
-
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+> I like building systems designed for an AI-focused future, grounded in solid understanding.
+> I believe AI is often misunderstood, but it has the potential to fundamentally change the way
+> we live and interact with the world.
